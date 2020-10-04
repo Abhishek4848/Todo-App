@@ -13,9 +13,3 @@ code {
     monospace;
 }
 
-.Todo input[type= "submit"] {
-  color: turquoise;
-  background-color:#333;
-  padding: 10px;
-  border: 2px solid #000;
-}
