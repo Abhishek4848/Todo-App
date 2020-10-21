@@ -1,11 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.css';
+
 
 function Home(){
     return(
         <div>
-            <h1>Home</h1>
-            <Link to ="/Todo">Click here to see your TODO list</Link>
+        <header className="header">
+        <h1>My Todo</h1>
+        </header>
+        <span className="btn">
+        <Link to ="/Todo"><button className="button">See my TODO list</button></Link>
+        </span>
         </div>
     )
 }

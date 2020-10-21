@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import './Todo.css';
 
 
 function Todo(){
@@ -36,15 +37,19 @@ function Todo(){
 
     return(
         <div>
+        <header className="header">
             <h1>TODO</h1>
-            <Link to ="/">Click here to go to Home page</Link>
+        </header>
+            <Link to ="/"><button className="button">Click here to go to Home page</button></Link>
+            <div className="inp">
             <form onSubmit={addItem}>
-                <label>
-                    Text Input:
+                <label className="inputLabel">
+                    Add Item:
                     <input type="text" value = {textInput} onChange={(e) =>setTextInput(e.target.value)}/>
                 </label>
                 <input type = "submit" value = "submit" />    
             </form>
+            </div>
             {error ? <span style={{color: "red"}}>Error Occured</span> : null}
             {
                 todoData.map((item,index) =>{
