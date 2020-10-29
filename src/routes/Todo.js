@@ -16,6 +16,7 @@ function Todo(){
         setTodoData(tempData)
         setTextInput("")
     }
+
     //this hook displays a error message when the input characters exceed 25
     //Displays nothing if characters<25
     useEffect(() => {
@@ -35,10 +36,6 @@ function Todo(){
         newData[index] = textInput;
         setTodoData(newData)
     }
-    var today = new Date();
-    var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' '+time;
 
     return(
         <div>
@@ -55,14 +52,15 @@ function Todo(){
                 <input type = "submit" value = "submit" className="submitbtn"/>    
             </form>
             </div>
-            {error ? <span style={{color: "red"}}>Enter a short Task Name</span> : null}
+            {error ? alert("Enter a short task name !!"): null}
             {
                  todoData.map((item,index) =>{
                      return(
                     <section class="card-list">
                         <article class="card" key={index}>
                           <header class="card-header">
-                            <p>{dateTime}</p>
+                            <p>{new Date().toLocaleString()}
+                            </p>
                             <h2>{item}</h2>
                           </header>
                             <div class="author-name">
