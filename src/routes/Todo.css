@@ -20,9 +20,17 @@
     margin: 10px;
 }
 
+.inputfield:focus {
+    outline: none;
+}
+
 .submitbtn {
     background-color: lime;
     border-radius: 50px;
+}
+
+.submitbtn:focus {
+    outline: none;
 }
 
 body {
