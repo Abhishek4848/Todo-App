@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/Todo-App/static/css/main.0e09501c.chunk.css",
-    "main.js": "/Todo-App/static/js/main.a7ff710c.chunk.js",
-    "main.js.map": "/Todo-App/static/js/main.a7ff710c.chunk.js.map",
-    "runtime-main.js": "/Todo-App/static/js/runtime-main.33efac75.js",
-    "runtime-main.js.map": "/Todo-App/static/js/runtime-main.33efac75.js.map",
-    "static/js/2.f0978d4f.chunk.js": "/Todo-App/static/js/2.f0978d4f.chunk.js",
-    "static/js/2.f0978d4f.chunk.js.map": "/Todo-App/static/js/2.f0978d4f.chunk.js.map",
+    "main.css": "/Todo-App/static/css/main.6253b89d.chunk.css",
+    "main.js": "/Todo-App/static/js/main.2e21566d.chunk.js",
+    "main.js.map": "/Todo-App/static/js/main.2e21566d.chunk.js.map",
+    "runtime-main.js": "/Todo-App/static/js/runtime-main.1d6bebf0.js",
+    "runtime-main.js.map": "/Todo-App/static/js/runtime-main.1d6bebf0.js.map",
+    "static/js/2.b2c96fd9.chunk.js": "/Todo-App/static/js/2.b2c96fd9.chunk.js",
+    "static/js/2.b2c96fd9.chunk.js.map": "/Todo-App/static/js/2.b2c96fd9.chunk.js.map",
     "index.html": "/Todo-App/index.html",
-    "precache-manifest.44bf4c5d50bccf2df7f38e4de13db319.js": "/Todo-App/precache-manifest.44bf4c5d50bccf2df7f38e4de13db319.js",
-    "service-worker.js": "/Todo-App/service-worker.js",
-    "static/css/main.0e09501c.chunk.css.map": "/Todo-App/static/css/main.0e09501c.chunk.css.map",
-    "static/js/2.f0978d4f.chunk.js.LICENSE.txt": "/Todo-App/static/js/2.f0978d4f.chunk.js.LICENSE.txt"
+    "static/css/main.6253b89d.chunk.css.map": "/Todo-App/static/css/main.6253b89d.chunk.css.map",
+    "static/js/2.b2c96fd9.chunk.js.LICENSE.txt": "/Todo-App/static/js/2.b2c96fd9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.33efac75.js",
-    "static/js/2.f0978d4f.chunk.js",
-    "static/css/main.0e09501c.chunk.css",
-    "static/js/main.a7ff710c.chunk.js"
+    "static/js/runtime-main.1d6bebf0.js",
+    "static/js/2.b2c96fd9.chunk.js",
+    "static/css/main.6253b89d.chunk.css",
+    "static/js/main.2e21566d.chunk.js"
   ]
 }
