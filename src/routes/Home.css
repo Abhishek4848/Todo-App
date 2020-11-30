@@ -11,6 +11,7 @@
     padding: 20px;
     cursor: pointer;
     transition: all 0.5s;
+    background-color: blueviolet;
 }
 
 .btn {
